@@ -1,0 +1,13 @@
+ALGORITHM read_sentence
+VAR4
+    counter1,counter2,counter3 : INTEGER := 0;
+    str :string:= "This is a really simple sentence"; 
+BEGIN
+    int len = strlen(str);//The length of the sentence 
+    IF str[i] in ("a","e","i","o","u")THEN  //The number of vowels in the sentence.
+        counter1 = counter1 + 1; 
+        END_IF
+     IF (str[len - 1] != '.') THEN//The last character is the point.
+        return false;
+       END_IF 
+END
