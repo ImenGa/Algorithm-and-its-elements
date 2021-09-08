@@ -1,6 +1,6 @@
 ALGORITHM read_sentence
 VAR
-    counter1,counter2,counter3 : INTEGER := 0;
+    counter1,counter2,: INTEGER := 0;
     counter3:BOOLEAN:=false;
     str :string:= "This is a really simple sentence"; 
 BEGIN
