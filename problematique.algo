@@ -4,6 +4,10 @@ VAR
     counter3:BOOLEAN:=false;
     str :string:= "This is a really simple sentence"; 
 BEGIN
+    read counter1;
+    read counter2;
+    read counter3;
+    read str;
     counter1 := str.length;//The length of the sentence 
     IF str[i] in ("a","e","i","o","u")THEN  //The number of vowels in the sentence.
         counter2 = counter2 + 1; 
