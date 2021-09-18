@@ -15,4 +15,5 @@ BEGIN
      IF (str[len - 1] != '.') THEN//The last character is the point.
         read counter3;
        END_IF 
+       //fin de l'algo
 END
