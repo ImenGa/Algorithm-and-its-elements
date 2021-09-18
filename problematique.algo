@@ -16,4 +16,5 @@ BEGIN
         read counter3;
        END_IF 
        //fin de l'algo
+       //algo+++
 END
